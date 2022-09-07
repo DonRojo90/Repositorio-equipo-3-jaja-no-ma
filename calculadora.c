@@ -11,7 +11,7 @@ printf("BIENVENIDO A LA CALCULADORA");
   printf("2.-Multiplicación");
   printf("3.-Resta");
   printf("4.-División");
-  scanf("%d",n1);
+  scanf("%d",$n1);
   
   Switch(n1)
   {
