@@ -37,6 +37,13 @@ printf("BIENVENIDO A LA CALCULADORA");
     scanf("%d",b);
     mul=a*b;
     printf("Tu resultado es:%d",mul);
+    Case4:
+    printf("Introduce el Dividendo:");
+    scanf("%d",a);
+    printf("/nIntroduce el Divisor:");
+    scanf("%d",b);
+    div=a/b;
+    printf("Tu resultado es:%.2f",div);
   }
   
 
