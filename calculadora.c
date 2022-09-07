@@ -3,7 +3,7 @@
 
 
 void main(void){
-int n1,n2,i,j,a,b,suma,mul;
+int n1,n2,i,j,a,b,suma,mul,res,div;
 
 printf("BIENVENIDO A LA CALCULADORA");
   printf("Mi chavo el Hernando");
@@ -23,27 +23,33 @@ printf("BIENVENIDO A LA CALCULADORA");
     scanf("%d",b);
     suma=a+b;
     printf("Tu resultado es:%d",suma);
+    break;
    Case2:
-    printf("Introduce el 1er número a restar:");
-    scanf("%d",a);
-    printf("/nIntroduce el 2do número a restar:");
-    scanf("%d",b);
-    resta=a-b;
-    printf("Tu resultado es:%d",resta);
-   Case3:
     printf("Introduce el Multiplicando:");
     scanf("%d",a);
     printf("/nIntroduce el Multiplicador:");
     scanf("%d",b);
     mul=a*b;
     printf("Tu resultado es:%d",mul);
-    Case4:
+    break;
+   Case3:
+    printf("Introduce el Número a Restar:");
+    scanf("%d",a);
+    printf("/nIntroduce el Restador:");
+    scanf("%d",b);
+    res=a-b;
+    printf("Tu resultado es:%d",res);
+    break;
+   Case4:
     printf("Introduce el Dividendo:");
     scanf("%d",a);
     printf("/nIntroduce el Divisor:");
     scanf("%d",b);
     div=a/b;
-    printf("Tu resultado es:%.2f",div);
+    break;
+    printf("Tu resultado es:%d",div);
+   Default:
+    printf("No está en la lista, deseas hacer otra operación");
   }
   
 
